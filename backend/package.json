@@ -1,0 +1,23 @@
+{
+  "name": "railpulse-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RailPulse backend proxy — keeps railway API keys server-side and exposes a stable REST contract to the Flutter app.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  },
+  "optionalDependencies": {
+    "railkit": "^6.0.4"
+  }
+}

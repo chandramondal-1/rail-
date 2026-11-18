@@ -1,0 +1,267 @@
+{
+  "@@locale": "en",
+  "appName": "RailPulse",
+  "tagline": "Your Train. Your Journey. Live.",
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "homeTitle": "Where is your train?",
+  "homeSubtitle": "Live running status, routes and platforms — all in one place.",
+  "searchHint": "Train number or name",
+  "searchAction": "Search",
+  "searchMinChars": "Type at least 2 characters.",
+  "searchEmptyTitle": "No trains found",
+  "searchEmptyBody": "Try a train number like 12951, or a name like Rajdhani.",
+  "searchResults": "Search results",
+  "searchFor": "Search trains",
+  "recentSearches": "Recent searches",
+  "noRecentSearches": "Your recent searches will appear here.",
+  "popularServices": "Popular services",
+  "viewAll": "View all",
+  "quickAccess": "Quick access",
+  "liveTrainStatus": "Live status",
+  "liveTrainStatusSubtitle": "Where is it right now?",
+  "pnrStatus": "PNR status",
+  "pnrStatusSubtitle": "Check your booking",
+  "trainSchedule": "Train route",
+  "trainScheduleSubtitle": "Every stop and time",
+  "stationStatus": "Station board",
+  "stationStatusSubtitle": "Arrivals and departures",
+  "favourites": "Favourites",
+  "favouritesSubtitle": "Saved trains",
+  "settings": "Settings",
+  "demoBadge": "Demo data",
+  "demoNotice": "Sample data from RailPulse demo mode. Live railway data is not connected.",
+  "demoPnrHint": "Demo mode — any 10-digit PNR shows sample data.",
+  "liveBadge": "Live",
+  "dataSource": "Data source",
+  "dataSourceDemo": "Demo mode — sample data",
+  "dataSourceLive": "Live railway data via a secure proxy",
+  "backendUnreachable": "Cannot reach the RailPulse server",
+  "backendUnreachableBody": "Start the local API proxy, then try again.",
+  "retry": "Try again",
+  "refresh": "Refresh",
+  "close": "Close",
+  "clear": "Clear",
+  "remove": "Remove",
+  "seeAll": "See all",
+  "somethingWentWrong": "Something went wrong",
+  "checkConnection": "Check your connection and try again.",
+  "loading": "Loading",
+  "noData": "No data available",
+  "updated": "Updated",
+  "minAgo": "{minutes} min ago",
+  "@minAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "justNow": "Just now",
+  "today": "Today",
+  "tomorrow": "Tomorrow",
+  "yesterday": "Yesterday",
+  "trainNumber": "Train number",
+  "runsOn": "Runs on",
+  "runsDaily": "Runs daily",
+  "duration": "Duration",
+  "distance": "Distance",
+  "source": "From",
+  "destination": "To",
+  "departure": "Departure",
+  "arrival": "Arrival",
+  "platform": "Platform",
+  "platformNumber": "PF {number}",
+  "@platformNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "halt": "Halt",
+  "day": "Day",
+  "dayNumber": "Day {number}",
+  "@dayNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "km": "{value} km",
+  "@km": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "journeyDate": "Journey date",
+  "selectDate": "Select journey date",
+  "liveStatus": "Live status",
+  "route": "Route",
+  "routeAndSchedule": "Route & schedule",
+  "lastUpdated": "Last updated",
+  "updatedAt": "Updated {time}",
+  "@updatedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "delayBy": "{minutes} min late",
+  "@delayBy": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "onTime": "On time",
+  "delay": "Delay",
+  "currentStation": "Current station",
+  "nextStation": "Next station",
+  "expectedArrival": "Expected arrival",
+  "progress": "Journey progress",
+  "distanceCovered": "Covered",
+  "distanceRemaining": "Remaining",
+  "completed": "Completed",
+  "upcoming": "Upcoming",
+  "showAllStations": "Show all stations",
+  "hideStations": "Show fewer stations",
+  "allStops": "All stops",
+  "coachPosition": "Coach position",
+  "addFavourite": "Add to favourites",
+  "removeFavourite": "Remove from favourites",
+  "addedToFavourites": "Added to favourites",
+  "removedFromFavourites": "Removed from favourites",
+  "noLiveData": "Live status unavailable",
+  "noLiveDataBody": "This train may not be running on the selected date.",
+  "notStarted": "Not started yet",
+  "journeyCompleted": "Journey completed",
+  "stopsCount": "{count} stops",
+  "@stopsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "trainNotFound": "Train not found",
+  "selectTrainFirst": "Select a train to track",
+  "trackTrain": "Track a train",
+  "trackTrainBody": "Search a train number or name to see its live position.",
+  "liveTabTitle": "Live",
+  "pnrNumber": "PNR number",
+  "pnrHint": "10-digit PNR",
+  "pnrInvalid": "Enter a valid 10-digit PNR number.",
+  "checkPnr": "Check PNR status",
+  "pnrResult": "PNR status",
+  "chartStatus": "Chart status",
+  "bookingStatus": "Booking status",
+  "currentStatus": "Current status",
+  "passenger": "Passenger",
+  "passengerNumber": "Passenger {number}",
+  "@passengerNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "coach": "Coach",
+  "berth": "Berth",
+  "fare": "Fare",
+  "classLabel": "Class",
+  "quota": "Quota",
+  "boardingPoint": "Boarding point",
+  "bookingFare": "Booking fare",
+  "pnrNotFound": "PNR not found",
+  "pnrNotFoundBody": "Check the number and try again.",
+  "pnrEmptyTitle": "Check your PNR",
+  "pnrEmptyBody": "Enter your 10-digit PNR to see coach, berth and chart status.",
+  "recentPnr": "Recent PNRs",
+  "stationSearchHint": "Station name or code",
+  "liveStationBoard": "Live station board",
+  "stationNotFound": "Station not found",
+  "stationNotFoundBody": "Try a station code like NDLS or a name like New Delhi.",
+  "stationEmptyTitle": "Find a station",
+  "stationEmptyBody": "Search any station to see live arrivals and departures.",
+  "nextHours": "Next {hours} hours",
+  "@nextHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "arrivals": "Arrivals",
+  "departures": "Departures",
+  "expected": "Expected",
+  "scheduled": "Scheduled",
+  "cancelled": "Cancelled",
+  "startsHere": "Starts here",
+  "endsHere": "Ends here",
+  "searchStation": "Search station",
+  "popularStations": "Popular stations",
+  "noFavourites": "No saved trains yet",
+  "noFavouritesBody": "Tap the star on any train to keep it here.",
+  "savedTrains": "Saved trains",
+  "clearRecents": "Clear recent searches",
+  "recentsCleared": "Recent searches cleared",
+  "appearance": "Appearance",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "language": "Language",
+  "languageEnglish": "English",
+  "languageHindi": "हिन्दी",
+  "languageBengali": "বাংলা",
+  "notifications": "Notifications",
+  "notificationsBody": "Journey reminders and delay alerts",
+  "notificationsNote": "Preference is saved on this device. Push delivery needs Firebase setup.",
+  "dataAndPrivacy": "Data & privacy",
+  "about": "About RailPulse",
+  "aboutBody": "A simple, fast and beautiful Indian railway companion. RailPulse is an independent app and is not affiliated with IRCTC or Indian Railways.",
+  "privacy": "Privacy policy",
+  "privacyBody": "RailPulse stores favourites, recent searches and preferences only on your device. Train data requests are sent to your configured RailPulse proxy, which may cache responses briefly. No personal data is sold or shared.",
+  "help": "Help & support",
+  "helpBody": "For help, contact support@railpulse.in. Always check the official railway display at your station before travelling.",
+  "clearCache": "Clear cached data",
+  "cacheCleared": "Cached data cleared",
+  "version": "Version",
+  "apiServer": "API server",
+  "disclaimer": "Data disclaimer",
+  "disclaimerBody": "Live data depends on the connected railway provider and may be delayed or unavailable. Always confirm at the station.",
+  "offlineNote": "Previously loaded schedules stay available offline.",
+  "trains": "Trains",
+  "stations": "Stations",
+  "changeTrain": "Change train",
+  "trackedTrain": "Tracked train",
+  "autoRefresh": "Auto-refresh",
+  "autoRefreshNote": "Live status refreshes automatically every 60 seconds.",
+  "autoRefreshOn": "Live updates on",
+  "autoRefreshOff": "Live updates paused",
+  "passengers": "Passengers",
+  "noTrainsWindow": "No trains found in this window",
+  "noTrainsWindowBody": "Try a longer time window or choose another station.",
+  "cancel": "Cancel",
+  "clearCacheConfirm": "This removes recent searches and the last tracked train from this device.",
+  "track": "Track",
+  "demoMode": "Demo mode",
+  "liveData": "Live data",
+  "navHome": "Home",
+  "navLive": "Live",
+  "navPnr": "PNR",
+  "navFavourites": "Saved",
+  "navSettings": "Settings",
+  "apiServerBody": "Address of the RailPulse proxy. Leave blank to use the build default.",
+  "apiServerHint": "http://192.168.1.10:8787",
+  "save": "Save",
+  "reset": "Reset to default",
+  "serverSaved": "Server address saved"
+}

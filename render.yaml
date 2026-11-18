@@ -1,0 +1,27 @@
+# Deploy the RailPulse proxy from GitHub with one click:
+#   1. Push this repository to GitHub.
+#   2. Go to https://render.com > New > Blueprint and pick the repository.
+#   3. Render reads this file and creates the web service.
+#   4. Paste IRCTC_API_KEY in the Render dashboard when prompted.
+# Every push to the default branch redeploys automatically.
+services:
+  - type: web
+    name: railpulse-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm ci --omit=dev
+    startCommand: node src/server.js
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: RAILWAY_PROVIDER
+        value: irctc
+      - key: IRCTC_API_KEY
+        sync: false # set this in the Render dashboard, never in git
+      - key: RAILPULSE_DEMO
+        value: "0"
+      - key: CORS_ORIGIN
+        value: "*"

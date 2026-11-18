@@ -1,0 +1,29 @@
+# Backend secrets and local state
+.env
+node_modules/
+npm-debug.log*
+
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+
+# Android
+android/local.properties
+android/key.properties
+android/.gradle/
+*.jks
+*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+
+# OS
+.DS_Store
